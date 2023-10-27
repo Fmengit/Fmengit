@@ -1,0 +1,1304 @@
+//BASE DE DATOS RESTAURANTE bd1
+
+//COLECCION DE CLIENTES
+
+[{
+  "_id": 1,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"MIGUEL",
+  "apellido":"JURADO",
+  "telefono":"661772889",
+  "direccion":"AV. EL PARAISO",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"Paola",
+  "apellido":"Lopez",
+  "telefono":"661772889",
+  "direccion":"C. DANIEL ZAMORA",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 3,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"CRISTIAN",
+  "apellido":"QUIROGA",
+  "telefono":"7878234",
+  "direccion":"C. FROILAN TEJERINA",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 4,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"JAVIER",
+  "apellido":"TRUJILLO",
+  "telefono":"78893900",
+  "direccion":"AV. CIRCUNVALACION",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 5,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"MARIA",
+  "apellido":"NIEVES",
+  "telefono":"0988989",
+  "direccion":"C.DOMINGO PAZ",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 6,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"ALEX",
+  "apellido":"MEDINA",
+  "telefono":"0988989",
+  "direccion":"C. BALLIVIAN",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 7,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"FERNADO",
+  "apellido":"AGUIRRE",
+  "telefono":"667382999",
+  "direccion":"C. RAMON ROJAS",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 8,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"ISABEL",
+  "apellido":"CHAMBI",
+  "telefono":"78994200",
+  "direccion":"C.CORRADO",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 9,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"SAMUEL",
+  "apellido":"RODRIGUEZ",
+  "telefono":"78920011",
+  "direccion":"AV. LA PAZ",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 10,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"JOSUE",
+  "apellido":"GUTIERREZ",
+  "telefono":"79442589",
+  "direccion":"AV. HEROES DEL CHACO",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"2022-11-24 19:09:15",
+  "usuario":1,
+  "estado":"A"
+}]
+
+// Coleccion de delivery
+{
+  "_id": 1,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"EL BUEN SABOR",
+  "telefono":"65803016",
+  "gmail":"el_buensabor@gmail.com",
+  "fec_insercion":"2022-11-24 19:09:20",
+  "fec_modificacion":"2022-11-24 19:09:20 ",
+  "usuario":1,
+  "estado":"A"
+}
+
+// Coleccion Ayudantes
+[{
+  "_id": 1,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"ESTER",
+  "apellido":"BENAVIDES",
+  "telefono":"72425022",
+  "ci":"15788290",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+  
+},
+{
+  "_id": 2,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"JUANA",
+  "apellido":"CRUZ",
+  "telefono":"77882982",
+  "ci":"88939292",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 3,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"ANA",
+  "apellido":"FERNANDEZ",
+  "telefono":"77878526",
+  "ci":"12667282",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"LUZ",
+  "apellido":"ALARCON",
+  "telefono":"72425833",
+  "ci":"7783933",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"LUIS",
+  "apellido":"ALARCON",
+  "telefono":"72425833",
+  "ci":"7783933",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"ESTER",
+  "apellido":"OSITA",
+  "telefono":"72425833",
+  "ci":"7783933",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"ANA",
+  "apellido":"FERNADEZ",
+  "telefono":"75688699",
+  "ci":"14653783",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"JUANA",
+  "apellido":"CRUZ",
+  "telefono":"79442589",
+  "ci":"16357383",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"LUIS",
+  "apellido":"CONDORI",
+  "telefono":"78839932 ",
+  "ci":"16368832",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "cocineros": {
+    "cocinero_id": 1
+  },
+  "nombres":"JUANA",
+  "apellido":"CRUZ",
+  "telefono":"78839932 ",
+  "ci":"16368832",
+  "fec_insercion":"2022-11-28 16:54:07",
+  "fec_modificacion":"2023-03-31 02:51:09",
+  "usuario":1,
+  "estado":"A"
+}]
+
+// Coleccion COCINEROS
+[{
+  "_id": 1,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"FRANCISCO",
+  "apellidos":"ALBARES",
+  "ci":"89798754",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 2,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"JUAN ",
+  "apellidos":"CASERES",
+  "ci":"661772889",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 3,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"TONY ",
+  "apellidos":"SANDOVAL",
+  "ci":"66767677",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 4,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"JAIME",
+  "apellidos":"MENDEZ",
+  "ci":"6265626",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 5,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"CARLOS ",
+  "apellidos":"OROPESA",
+  "ci":"66767799",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 6,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"ANDRES ",
+  "apellidos":"VILLA",
+  "ci":"8787899",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 7,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"FAUSTO",
+  "apellidos":"MENCHACA",
+  "ci":"87556789",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 8,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"DANIEL",
+  "apellidos":"QUINIONES",
+  "ci":"67799022",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 9,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"FERNANDO",
+  "apellidos":"FERNANDES",
+  "ci":"86778992",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+},
+
+{
+  "_id": 10,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "nombre":"MARIA",
+  "apellidos":"BURGOS",
+  "ci":"14667289",
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2023-03-29 19:57:45",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//coleccion consumo_clientes
+[{
+  "_id": 1,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"12:00:00",
+  "fecha":"2021-12-05",
+  "monto":20,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"13:00:00",
+  "fecha":"2021-12-05",
+  "monto":10,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A",
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"11:00:00",
+  "fecha":"2021-11-05",
+  "monto":20,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"14:00:00",
+  "fecha":"2021-09-05",
+  "monto":10,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"16:00:00",
+  "fecha":"2021-12-05",
+  "monto":20,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"16:00:00",
+  "fecha":"2012-12-01",
+  "monto":202,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"14:00:00",
+  "fecha":"2021-11-05",
+  "monto":20,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"12:00:00",
+  "fecha":"2021-12-05",
+  "monto":20,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"13:00:00",
+  "fecha":"2021-11-05",
+  "monto":108,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "cliente": {
+    "cliente_id": 1
+  },
+  "horario":"12:00:00",
+  "fecha":"2021-11-05",
+  "monto":30.15,
+  "fec_insercion":"2022-11-24 19:09:15",
+  "fec_modificacion":"22023-04-27 19:29:50",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//collecion detalles_consumo
+[{
+  "_id": 1,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":2,
+  "precio":40,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":2,
+  "precio":20,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":3,
+  "precio":30,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":1,
+  "precio":20,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":3,
+  "precio":30,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":1,
+  "precio":20,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":2,
+  "precio":40,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":1,
+  "precio":20,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":1,
+  "precio":20,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "menus": {
+    "menu_id": 1
+  },
+  "cantidad":3,
+  "precio":60,
+  "fec_insercion":"2022-11-24 19:09:18",
+  "fec_modificacion":"2022-11-24 19:09:18 ",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//COLLECCION DE MENUS
+[{
+  "_id": 1,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"ENSALADA",
+  "sopa":"SOPA DE FIDEO",
+  "segundo":"ALBONDIGAS",
+  "postre":"FLAN DE MANZANA",
+  "fecha":"2022-06-12",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"TOMATES RELLENOS",
+  "sopa":"CREMA DE SAPALLO",
+  "segundo":"PICANTE DE POLLO",
+  "postre":"PUDIN DE CHOCOLATE",
+  "fecha":"2022-07-12",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"PAPAS A LAS FINAS YERVAS",
+  "sopa":"SOPA DE QUINUA",
+  "segundo":"PICANTE DE POLLO",
+  "postre":"PAY DE LIMON",
+  "fecha":"2022-07-13",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"Porotos con repollo",
+  "sopa":"SOPA DE QUINUA",
+  "segundo":"PIQUE MACHO",
+  "postre":"BUDIN DE CHOCOLATE",
+  "fecha":"2022-07-14",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"SALPICON",
+  "sopa":"SOPA DE MANI",
+  "segundo":"SAICE",
+  "postre":"FLAN DE MANZANA",
+  "fecha":"2022-07-15",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"VERDURAS",
+  "sopa":"CALDO DE RES",
+  "segundo":"POLLO ALA CANASTA",
+  "postre":"PAY DE PIÑA",
+  "fecha":"2022-07-16",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"ROLLO DE PECHUGA DE POLLO",
+  "sopa":"SOPA DE TRIGO",
+  "segundo":"FALSO CONEJO",
+  "postre":"FLAN DE MANZNA",
+  "fecha":"2022-07-17",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},{
+  "_id": 8,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"TORRE DE SALMON Y VEGETALES",
+  "sopa":"SOPA DE VERDURAS",
+  "segundo":"PICANTE MIXTO",
+  "postre":"FLAN DE MANZANA",
+  "fecha":"2022-07-19",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"ESPARRAGOS GRATINADOS CON BECHAMEL",
+  "sopa":"SOPA PODEROSA",
+  "segundo":"MILANEZA NAPOLITANA",
+  "postre":"MUSH DE FRUTILLA",
+  "fecha":"2022-07-20",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "restaurante": {
+    "restaurante_id": 1
+  },
+  "entrada":"SUCCHINIS CON SEMILLAS DE SESAMO",
+  "sopa":"SOPA DE TOMATE",
+  "segundo":"ACONEJADO",
+  "postre":"MUSH DE MARACUYA",
+  "fecha":"2022-07-21",
+  "fec_insercion":"2022-11-24 19:09:16",
+  "fec_modificacion":"2022-11-24 19:09:16",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//COLLECION DE MESEROS
+[{
+  "_id": 1,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"JUANA",
+  "apellido":"ZAMBRANA",
+  "ci":"86772882",
+  "telefono":"77678728",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"ROBERTO",
+  "apellido":"XIMENES",
+  "ci":"878789",
+  "telefono":"98987873",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"XIMENA",
+  "apellido":"ALTAMIRANO",
+  "ci":"86772882",
+  "telefono":"6566229",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"SOFIA",
+  "apellido":"FERNANDES",
+  "ci":"889989",
+  "telefono":"7234443",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"ALEX",
+  "apellido":"SANTOS",
+  "ci":"8866599",
+  "telefono":"71339399",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"CARLOS",
+  "apellido":"VELASQUES",
+  "ci":"85627722",
+  "telefono":"69277272",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"LUIS",
+  "apellido":"SANDOVAL",
+  "ci":"14262672",
+  "telefono":"776166268",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"JHONY",
+  "apellido":"MARQUEZ",
+  "ci":"1872872",
+  "telefono":"76151526",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"ALFREDO",
+  "apellido":"RUIZ",
+  "ci":"14772882",
+  "telefono":"77678789",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "clientes": {
+    "cliente_id": 1
+  },
+  "mesero":"OSCAR",
+  "apellido":"MARTINEZ",
+  "ci":"8424434",
+  "telefono":"72378728",
+  "fec_insercion":"2022-11-24 19:09:23",
+  "fec_modificacion":"2022-11-24 19:09:23",
+  "usuario":1,
+  "estado":"A"
+}]
+
+// COLECCION DE PEDIDOS
+[{
+  "_id": 1,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":" LUIS",
+  "ubicacion":"C.RAMON ROJAS",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"CARLOS",
+  "ubicacion":"AV CIRCUNVALACION",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"JAIME",
+  "ubicacion":"AV LA PAZ",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"MANUEL",
+  "ubicacion":"C BALLIVIAN",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"SEBASTIAN",
+  "ubicacion":"C. DOMINGO PAZ",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"JOSUE",
+  "ubicacion":"AV HEROES DEL CHACO",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"RODRIGO",
+  "ubicacion":"C. CORRADO",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "remitente":"FRANCO",
+  "destinatario":"Javier Morales",
+  "ubicacion":"calle aniceto arce ",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "remitente":"",
+  "destinatario":"JOSUE QUINTEROS",
+  "ubicacion":"AV CIRCUNVALACION",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "remitente":"EL BUEN SABOR",
+  "destinatario":"12121",
+  "ubicacion":"LOS PARRALES",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//COLECCION REPARTIDORES
+[{
+  "_id": 1,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"JAIME",
+  "telefono":"73636636",
+  "ci":"14772882",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"ALFREDO",
+  "telefono":"71233233",
+  "ci":"1476467",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"ALFREDO",
+  "telefono":"773822",
+  "ci":"14772882",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 4,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"ROBERTO",
+  "telefono":"7122839",
+  "ci":"1423444",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 5,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"SAUL",
+  "telefono":"7388786",
+  "ci":"14777662",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 6,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"LAURA",
+  "telefono":"73636635",
+  "ci":"8665672",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 7,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"JULIAN",
+  "telefono":"73633336",
+  "ci":"8325373",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 8,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"VANESA",
+  "telefono":"77878558",
+  "ci":"8523831",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 9,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"HECTOR",
+  "telefono":"724245022",
+  "ci":"8589831",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 10,
+  "delivery": {
+    "delivery_id": 1
+  },
+  "nombre":"JHON",
+  "telefono":"77867677",
+  "ci":"85567282",
+  "fec_insercion":"2022-11-24 19:09:22 ",
+  "fec_modificacion":"2022-11-24 19:09:22",
+  "usuario":1,
+  "estado":"A"
+}]
+
+//COLECCION RESTAURANTE
+
+[{
+  "_id": 1,
+  "nombre":"EL BUEN SABOR",
+  "telefono":"60456012",
+  "direccion":"COMUNIDAD COIMATA",
+  "logo":"logo1.png",
+  "fec_insercion":"2022-11-24 19:09:14 ",
+  "fec_modificacion":"2023-08-25 22:00:55",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 2,
+  "nombre":"wwewe",
+  "telefono":"wewesds",
+  "direccion":"sdsd",
+  "logo":"abstract-lilac-background-free-vector.jpg",
+  "fec_insercion":"2022-11-24 19:09:14",
+  "fec_modificacion":"2023-08-25 22:00:55",
+  "usuario":1,
+  "estado":"A"
+},
+{
+  "_id": 3,
+  "nombre":"hashtac",
+  "telefono":"443222",
+  "direccion":"calle la paz",
+  "logo":"1449c6a500987b9.jpg",
+  "fec_insercion":"2023-09-01 04:09:14",
+  "fec_modificacion":"2023-09-01 01:24:39",
+  "usuario":1,
+  "estado":"A"
+}]
+

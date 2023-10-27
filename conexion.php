@@ -2,7 +2,7 @@
 
 require_once("adodb/adodb.inc.php");
 
-
+//agregamos un comentario
 $conServidor = "localhost";
 $conUsuario = "root";
 $conClave = "";
